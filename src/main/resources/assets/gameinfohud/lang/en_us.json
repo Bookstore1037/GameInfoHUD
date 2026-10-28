@@ -1,0 +1,63 @@
+{
+  "gameinfohud.direction.south": "South",
+  "gameinfohud.direction.north": "North",
+  "gameinfohud.direction.east": "East",
+  "gameinfohud.direction.west": "West",
+  "gameinfohud.direction.southwest": "South West",
+  "gameinfohud.direction.northwest": "North West",
+  "gameinfohud.direction.northeast": "North East",
+  "gameinfohud.direction.southeast": "South East",
+  "gameinfohud.direction.short.s": "S",
+  "gameinfohud.direction.short.sw": "SW",
+  "gameinfohud.direction.short.w": "W",
+  "gameinfohud.direction.short.nw": "NW",
+  "gameinfohud.direction.short.n": "N",
+  "gameinfohud.direction.short.ne": "NE",
+  "gameinfohud.direction.short.e": "E",
+  "gameinfohud.direction.short.se": "SE",
+
+  "gameinfohud.chunks.label": "Loaded Chunks: ",
+  "gameinfohud.dimension.overworld": "Overworld",
+  "gameinfohud.dimension.the_nether": "Nether",
+  "gameinfohud.dimension.the_end": "End",
+  "gameinfohud.world.label": "Dimension: ",
+
+  "gameinfohud.time.mcdate": "MC Date: Day %s , Time",
+  "gameinfohud.time.daynight.day": "Day",
+  "gameinfohud.time.daynight.night": "Night",
+
+  "gameinfohud.entities": "Entities: %s Rendered / %s Total",
+  "gameinfohud.biome.label": "Biome: ",
+  "gameinfohud.temp_humidity": "Temp: %s°C Humidity: %s%%",
+
+  "gameinfohud.chunk.label": "Chunk",
+  "gameinfohud.chunk.label.offset": "Offset: ",
+  "gameinfohud.facing.label": "Facing: ",
+
+  "gameinfohud.light.label": "Light ",
+  "gameinfohud.light.sky": "Sky ",
+  "gameinfohud.light.block": "Block ",
+  "gameinfohud.light.feet": "Feet ",
+
+  "gameinfohud.weather.clear": "Clear",
+  "gameinfohud.weather.rain": "Rain",
+  "gameinfohud.weather.thunder": "Thunder",
+  "gameinfohud.weather.snow": "Snow",
+  "gameinfohud.weather.label": "Weather: ",
+
+  "gameinfohud.moonphase.full_moon": "Full Moon",
+  "gameinfohud.moonphase.waning_gibbous": "Waning Gibbous",
+  "gameinfohud.moonphase.third_quarter": "Third Quarter",
+  "gameinfohud.moonphase.waning_crescent": "Waning Crescent",
+  "gameinfohud.moonphase.new_moon": "New Moon",
+  "gameinfohud.moonphase.waxing_crescent": "Waxing Crescent",
+  "gameinfohud.moonphase.first_quarter": "First Quarter",
+  "gameinfohud.moonphase.waxing_gibbous": "Waxing Gibbous",
+  "gameinfohud.moonphase.label": "Moon Phase",
+
+  "gameinfohud.realtime.label": "Real Time: ",
+
+  "gameinfohud.config.title": "InGameInfo Config",
+  "gameinfohud.config.scale": "Scale",
+  "gameinfohud.config.showHud": "Show HUD"
+}
