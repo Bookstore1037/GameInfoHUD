@@ -52,6 +52,12 @@
             <str>$6</str>
             <var>loadedchunks</var>
             <str>$f</str>
+            <str>&#160;</str>
+            <var>moonphaselabel</var>
+            <str>: </str>
+            <str>$e</str>
+            <var>moonphase</var>
+            <str>$f</str>
         </line>
         <!-- 实体 -->
         <line>
