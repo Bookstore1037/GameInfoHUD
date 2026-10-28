@@ -1,7 +1,7 @@
 # Game Info HUD
 
 Overlays customizable information on the game screen (coordinates, FPS, health, time, weather, biome, etc.).
-This is a **1.20.1 Forge port** of [InGameInfoXML](https://github.com/Lunatrius/InGameInfoXML), originally created by
+This is a **1.20.1 Forge port** of [InGameInfoXML](https://github.com/Lunatrius/InGame-Info-XML), originally created by
 Jadran "Lunatrius" Kotnik and released under the MIT License. What you see and how it's laid out is fully controlled
 by a single XML configuration file — you can build any overlay you want.
 
@@ -424,7 +424,7 @@ Equipment icons can be referenced directly:
 
 ## License / Credits
 
-This mod is a 1.20.1 Forge port of [InGameInfoXML](https://github.com/Lunatrius/InGameInfoXML).
+This mod is a 1.20.1 Forge port of [InGameInfoXML](https://github.com/Lunatrius/InGame-Info-XML).
 Original author: Jadran "Lunatrius" Kotnik, released under the MIT License.
 
 This project is distributed under the same license. See `LICENSE.txt` in the repository root for the copyright notice and license text.
