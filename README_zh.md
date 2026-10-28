@@ -1,7 +1,7 @@
 # Game Info HUD
 
 在游戏画面上叠加显示自定义信息（坐标、FPS、血量、时间、天气、生物群系等）。本模组是
-[InGameInfoXML](https://github.com/Lunatrius/InGameInfoXML) 的 1.20.1 Forge 移植版，原作者为
+[InGameInfoXML](https://github.com/Lunatrius/InGame-Info-XML) 的 1.20.1 Forge 移植版，原作者为
 Jadran "Lunatrius" Kotnik，沿用与原作MIT许可。信息内容和排版完全由
 一份 XML 配置文件决定，你可以自己动手写任意想要显示的内容。
 
@@ -425,7 +425,7 @@ config/gameinfohud/ingameinfo.xml
 
 ## 许可 / 版权
 
-本模组是 [InGameInfoXML](https://github.com/Lunatrius/InGameInfoXML) 的 1.20.1 Forge 移植版。
+本模组是 [InGameInfoXML](https://github.com/Lunatrius/InGame-Info-XML) 的 1.20.1 Forge 移植版。
 原模组作者：Jadran "Lunatrius" Kotnik，依据 MIT License 发布。
 
 本项目沿用相同许可，版权声明与许可文本见仓库根目录的 `LICENSE.txt`。
