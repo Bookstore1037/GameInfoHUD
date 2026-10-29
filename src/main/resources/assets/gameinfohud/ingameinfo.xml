@@ -72,7 +72,6 @@
             <if>
                 <var>slimes</var>
                 <str> ($aSlime$f)</str>
-                <str></str>
             </if>
             <str>&#160;</str>
             <var>temphumidity</var>
@@ -366,3 +365,4 @@
         </line>
     </lines>
 </config>
+

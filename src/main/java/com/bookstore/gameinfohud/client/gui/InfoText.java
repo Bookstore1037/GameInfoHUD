@@ -41,7 +41,7 @@ public class InfoText extends Info {
             builder.append(getValue(value));
         }
 
-        isActive = builder.length() > 0;
+        isActive = !builder.isEmpty();
         updateChildren(builder);
         text = builder.toString();
         updatePosition();
@@ -64,7 +64,7 @@ public class InfoText extends Info {
     }
 
     private void updateChildren(StringBuilder builder) {
-        if (builder.length() == 0 && !attachedValues.isEmpty()) {
+        if (builder.isEmpty() && !attachedValues.isEmpty()) {
             attachedValues.clear();
             return;
         }

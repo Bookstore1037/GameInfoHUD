@@ -67,8 +67,11 @@ public abstract class TagMisc extends Tag {
     public static class EntitiesLine extends TagMisc {
         @Override
         public String getValue() {
-            int rendered = countRendered();
             int total = countEntities();
+            int rendered = countRendered();
+            if (rendered < 0) {
+                rendered = total;  // 反射失败，已渲染 = 总数
+            }
             String k = "gameinfohud.entities";
             String t = Component.translatable(k, "§b" + rendered + "§r", "§b" + total + "§r").getString();
             return t.equals(k) ? rendered + " / " + total : t;

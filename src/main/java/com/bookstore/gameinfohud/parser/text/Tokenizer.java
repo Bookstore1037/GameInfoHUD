@@ -24,7 +24,7 @@ public class Tokenizer {
 
         str = str.trim();
 
-        while (str.length() > 0) {
+        while (!str.isEmpty()) {
             match = false;
             for (TokenType tokenType : TokenType.values()) {
                 Matcher matcher = tokenType.getPattern().matcher(str);

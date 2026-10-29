@@ -7,6 +7,7 @@ import com.bookstore.gameinfohud.tag.registry.TagRegistry;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.biome.Biome;
@@ -131,7 +132,7 @@ public abstract class TagWorld extends Tag {
         @Override
         public String getValue() {
             var loc = world.getBiome(pos()).unwrapKey()
-                    .map(k -> k.location())
+                    .map(ResourceKey::location)
                     .orElse(null);
             if (loc == null) return "unknown";
             String key = "biome." + loc.getNamespace() + "." + loc.getPath();

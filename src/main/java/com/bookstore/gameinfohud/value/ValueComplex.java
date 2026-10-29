@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.bookstore.gameinfohud.GameInfoCore;
+import com.bookstore.gameinfohud.GameInfoHud;
 import com.bookstore.gameinfohud.client.gui.Info;
 import com.bookstore.gameinfohud.client.gui.InfoIcon;
 import com.bookstore.gameinfohud.client.gui.InfoItem;
@@ -317,7 +318,8 @@ public abstract class ValueComplex extends Value {
                     return Tag.getIconTag(value);
                 }
             } catch (Exception e) {
-                return "?";
+                GameInfoHud.LOGGER.error("countRendered failed", e);
+                return "-1";
             }
         }
     }
